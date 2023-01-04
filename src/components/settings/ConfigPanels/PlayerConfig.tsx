@@ -106,7 +106,7 @@ const PlayerConfig = ({ bordered }: any) => {
       <ConfigOption
         name={t('Audio Device')}
         description={t(
-          'The audio device for Sonixd. Leaving this blank will use the system default.'
+          'The audio device for Stromusic. Leaving this blank will use the system default.'
         )}
         option={
           <StyledInputPickerContainer ref={audioDevicePickerContainerRef}>
@@ -168,8 +168,8 @@ const PlayerConfig = ({ bordered }: any) => {
         description={
           <Trans>
             Remember play queue on startup. The current Now Playing queue will be saved on exiting,
-            and will be restored when you reopen Sonixd. Be warned that you should manually close
-            Sonixd for the queue to be saved. An improper shutdown (such as the app closing during a
+            and will be restored when you reopen Stromusic. Be warned that you should manually close
+            Stromusic for the queue to be saved. An improper shutdown (such as the app closing during a
             shutdown or force quitting) may result in history not being saved.
           </Trans>
         }
@@ -235,7 +235,7 @@ const PlayerConfig = ({ bordered }: any) => {
         description={
           <Trans>
             Enable or disable global media hotkeys (play/pause, next, previous, stop, etc). For
-            macOS, you will need to add Sonixd as a{' '}
+            macOS, you will need to add Stromusic as a{' '}
             <StyledLink
               onClick={() =>
                 shell.openExternal(

@@ -357,7 +357,7 @@ export const ThemeConfigPanel = ({ bordered }: any) => {
           <Trans>
             The application theme. Want to create your own themes? Check out the documentation{' '}
             <StyledLink
-              onClick={() => shell.openExternal('https://github.com/jeffvli/sonixd/discussions/61')}
+              onClick={() => shell.openExternal('https://github.com/Ulyssedev/StroMusic/discussions/61')}
             >
               here
             </StyledLink>
@@ -488,7 +488,7 @@ export const ThemeConfigPanel = ({ bordered }: any) => {
 
       <ConfigOption
         name={t('Start page')}
-        description={t('Page Sonixd will display on start.')}
+        description={t('Page Stromusic will display on start.')}
         option={
           <StyledInputPickerContainer ref={startPagePickerContainerRef}>
             <StyledInputPicker

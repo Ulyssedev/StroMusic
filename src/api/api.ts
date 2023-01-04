@@ -37,7 +37,7 @@ const authParams = legacyAuth
       u: auth.username,
       p: auth.password,
       v: '1.13.0',
-      c: 'sonixd',
+      c: 'Stromusic',
       f: 'json',
     }
   : {
@@ -45,7 +45,7 @@ const authParams = legacyAuth
       s: auth.salt,
       t: auth.hash,
       v: '1.13.0',
-      c: 'sonixd',
+      c: 'Stromusic',
       f: 'json',
     };
 
@@ -61,7 +61,7 @@ api.interceptors.request.use((config) => {
   config.params.t = legacyAuth ? null : auth.hash;
   config.params.p = legacyAuth ? auth.password : null;
   config.params.v = '1.13.0';
-  config.params.c = 'sonixd';
+  config.params.c = 'Stromusic';
   config.params.f = 'json';
   return config;
 });
@@ -104,7 +104,7 @@ const getCoverArtUrl = (item: any, useLegacyAuth: boolean, size?: number) => {
       `&u=${auth.username}` +
       `&p=${auth.password}` +
       `&v=1.13.0` +
-      `&c=sonixd` +
+      `&c=Stromusic` +
       `${size ? `&size=${size}` : ''}`
     );
   }
@@ -116,7 +116,7 @@ const getCoverArtUrl = (item: any, useLegacyAuth: boolean, size?: number) => {
     `&s=${auth.salt}` +
     `&t=${auth.hash}` +
     `&v=1.13.0` +
-    `&c=sonixd` +
+    `&c=Stromusic` +
     `${size ? `&size=${size}` : ''}`
   );
 };
@@ -129,7 +129,7 @@ export const getDownloadUrl = (options: { id: string }, useLegacyAuth = legacyAu
       `&u=${auth.username}` +
       `&p=${auth.password}` +
       `&v=1.13.0` +
-      `&c=sonixd`
+      `&c=Stromusic`
     );
   }
 
@@ -140,7 +140,7 @@ export const getDownloadUrl = (options: { id: string }, useLegacyAuth = legacyAu
     `&s=${auth.salt}` +
     `&t=${auth.hash}` +
     `&v=1.13.0` +
-    `&c=sonixd`
+    `&c=Stromusic`
   );
 };
 
@@ -152,7 +152,7 @@ const getStreamUrl = (id: string, useLegacyAuth: boolean) => {
       `&u=${auth.username}` +
       `&p=${auth.password}` +
       `&v=1.13.0` +
-      `&c=sonixd`
+      `&c=Stromusic`
     );
   }
 
@@ -163,7 +163,7 @@ const getStreamUrl = (id: string, useLegacyAuth: boolean) => {
     `&s=${auth.salt}` +
     `&t=${auth.hash}` +
     `&v=1.13.0` +
-    `&c=sonixd`
+    `&c=Stromusic`
   );
 };
 

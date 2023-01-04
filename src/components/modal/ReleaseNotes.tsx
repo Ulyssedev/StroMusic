@@ -17,7 +17,7 @@ const ReleaseNotes = () => {
     setIsLoading(true);
     const fetchReleaseNotes = async () => {
       const { data } = await axios.get(
-        'https://api.github.com/repos/jeffvli/sonixd/releases?per_page=4'
+        'https://api.github.com/repos/Ulyssedev/StroMusic/releases?per_page=4'
       );
 
       setReleaseDetails(
@@ -53,7 +53,7 @@ const ReleaseNotes = () => {
                 {release?.tag}
                 <StyledButton
                   onClick={() =>
-                    shell.openExternal(`https://github.com/jeffvli/sonixd/releases/${release.tag}`)
+                    shell.openExternal(`https://github.com/Ulyssedev/StroMusic/releases/${release.tag}`)
                   }
                   appearance="primary"
                   size="sm"

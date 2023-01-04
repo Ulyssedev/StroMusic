@@ -1,7 +1,7 @@
 {
-  "name": "sonixd",
-  "productName": "Sonixd",
-  "description": "A full-featured Subsonic/Jellyfin compatible desktop client",
+  "name": "Stromusic",
+  "productName": "Stromusic",
+  "description": "A full-featured StromRein compatible desktop client",
   "scripts": {
     "build": "concurrently \"yarn build:main\" \"yarn build:renderer\"",
     "build:main": "cross-env NODE_ENV=production webpack --config ./.erb/configs/webpack.config.main.prod.babel.js",
@@ -31,8 +31,8 @@
     ]
   },
   "build": {
-    "productName": "Sonixd",
-    "appId": "org.erb.sonixd",
+    "productName": "Stromusic",
+    "appId": "org.erb.Stromusic",
     "artifactName": "${productName}-${version}-${os}-${arch}.${ext}",
     "files": [
       "dist/",
@@ -101,12 +101,12 @@
     "publish": {
       "provider": "github",
       "owner": "jeffvli",
-      "repo": "sonixd"
+      "repo": "Stromusic"
     }
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeffvli/sonixd.git"
+    "url": "git+https://github.com/Ulyssedev/StroMusic.git"
   },
   "author": {
     "name": "jeffvli",
@@ -115,14 +115,14 @@
   "contributors": [],
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/jeffvli/sonixd/issues"
+    "url": "https://github.com/Ulyssedev/StroMusic/issues"
   },
   "keywords": [
     "electron",
     "react",
     "typescript"
   ],
-  "homepage": "https://github.com/jeffvli/sonixd#readme",
+  "homepage": "https://github.com/Ulyssedev/StroMusic#readme",
   "jest": {
     "testURL": "http://localhost/",
     "moduleNameMapper": {

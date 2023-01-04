@@ -39,10 +39,10 @@ const Login = () => {
     try {
       const testConnection = legacyAuth
         ? await axios.get(
-            `${cleanServerName}/rest/ping.view?v=1.13.0&c=sonixd&f=json&u=${userName}&p=${password}`
+            `${cleanServerName}/rest/ping.view?v=1.13.0&c=Stromusic&f=json&u=${userName}&p=${password}`
           )
         : await axios.get(
-            `${cleanServerName}/rest/ping.view?v=1.13.0&c=sonixd&f=json&u=${userName}&s=${salt}&t=${hash}`
+            `${cleanServerName}/rest/ping.view?v=1.13.0&c=Stromusic&f=json&u=${userName}&s=${salt}&t=${hash}`
           );
 
       // Since a valid request will return a 200 response, we need to check that there
@@ -95,7 +95,7 @@ const Login = () => {
         },
         {
           headers: {
-            'X-Emby-Authorization': `MediaBrowser Client="Sonixd", Device="PC", DeviceId="${deviceId}", Version="${packageJson.version}"`,
+            'X-Emby-Authorization': `MediaBrowser Client="Stromusic", Device="PC", DeviceId="${deviceId}", Version="${packageJson.version}"`,
           },
         }
       );
@@ -146,7 +146,7 @@ const Login = () => {
               onChange={(e: Server) => setServerType(e)}
             >
               <StyledRadio value="subsonic">Subsonic</StyledRadio>
-              <StyledRadio value="jellyfin">Jellyfin</StyledRadio>
+              <StyledRadio value="jellyfin">StromRein</StyledRadio>
             </RadioGroup>
           </StyledInputPickerContainer>
           <br />

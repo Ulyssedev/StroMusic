@@ -106,7 +106,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 
-- (Windows) Removed the cover art display when hovering Sonixd on the taskbar (due to new sidebar position) (#242)
+- (Windows) Removed the cover art display when hovering Stromusic on the taskbar (due to new sidebar position) (#242)
 
 [0.13.1] - 2022-02-16
 
@@ -119,7 +119,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Added new searchbar and search UI (#227, #228)
-- Added playback controls to the Sonixd tray menu (#225)
+- Added playback controls to the Stromusic tray menu (#225)
 - Added playlist selections to the `Start Page` config option
 
 ### Changed
@@ -231,8 +231,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - Fixed various MPRIS features
-  - Synchronized the play/pause state between the player and MPRIS client when pausing from Sonixd (#152)
-  - Fixed the identity of Sonixd to use the app name instead of description (#163)
+  - Synchronized the play/pause state between the player and MPRIS client when pausing from Stromusic (#152)
+  - Fixed the identity of Stromusic to use the app name instead of description (#163)
 - Fixed various submenus opening in the right-click context menu when the option is disabled (#164)
 - Fixed compatibility with older Subsonic API servers (now targets Subsonic v1.13.0) (#144)
 - Fixed playback causing heavily increased CPU/Power usage #145)
@@ -385,7 +385,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Added Jellyfin server support (#87)
-  - Supports full Sonixd feature-set (except ratings)
+  - Supports full Stromusic feature-set (except ratings)
 - Added a mini config popover to change list/grid view options on the top action bar
 - Added system audio device selector (#96)
 - Added context menu option `Set rating` to bulk set ratings for songs (and albums/artists on Navidrome) (#95)
@@ -499,7 +499,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Increase delay when completing mouse drag select in list view from `100ms` -> `200ms`
-- Change casing for main application name `sonixd` -> `Sonixd`
+- Change casing for main application name `Stromusic` -> `Stromusic`
 
 ### Fixed
 

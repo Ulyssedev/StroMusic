@@ -126,7 +126,7 @@ const PlayerBar = () => {
                   title: playQueue.current?.title,
                 },
                 date: Date.now(),
-                hostname: 'Sonixd',
+                hostname: 'Stromusic',
               },
               {
                 headers: {

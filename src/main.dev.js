@@ -108,8 +108,8 @@ const previousTrack = () => {
 
 if (isLinux()) {
   const mprisPlayer = Player({
-    name: 'Sonixd',
-    identity: 'Sonixd',
+    name: 'Stromusic',
+    identity: 'Stromusic',
     supportedUriSchemes: ['file'],
     supportedMimeTypes: ['audio/mpeg', 'application/ogg'],
     supportedInterfaces: ['player'],
@@ -239,7 +239,7 @@ if (isLinux()) {
   });
 
   ipcMain.on('seeked', (_event, arg) => {
-    // Send the position from Sonixd to MPRIS on manual seek
+    // Send the position from Stromusic to MPRIS on manual seek
     setTimeout(() => {
       mprisPlayer.seeked(arg);
     }, 100);
@@ -313,7 +313,7 @@ if (isWindows() && isWindows10()) {
   Controls.playbackStatus = windowsMedia.MediaPlaybackStatus.closed;
   Controls.displayUpdater.type = windowsMedia.MediaPlaybackType.music;
 
-  Controls.displayUpdater.musicProperties.title = 'Sonixd';
+  Controls.displayUpdater.musicProperties.title = 'Stromusic';
   Controls.displayUpdater.musicProperties.artist = 'No Track Playing';
   Controls.displayUpdater.musicProperties.albumTitle = 'No Album Playing';
   Controls.displayUpdater.update();
@@ -367,7 +367,7 @@ if (isWindows() && isWindows10()) {
       windowsStorageStreams.RandomAccessStreamReference.createFromUri(
         new windowsFoundation.Uri(
           arg.image.includes('placeholder')
-            ? 'https://raw.githubusercontent.com/jeffvli/sonixd/main/src/img/placeholder.png'
+            ? 'https://raw.githubusercontent.com/Ulyssedev/StroMusic/main/src/img/placeholder.png'
             : arg.image
         )
       );
@@ -635,7 +635,7 @@ const createTray = () => {
       },
     },
     {
-      label: 'Quit Sonixd',
+      label: 'Quit Stromusic',
       click: () => {
         exitFromTray = true;
         app.quit();
@@ -648,7 +648,7 @@ const createTray = () => {
     createWinThumbarButtons();
   });
 
-  tray.setToolTip('Sonixd');
+  tray.setToolTip('Stromusic');
   tray.setContextMenu(contextMenu);
 };
 

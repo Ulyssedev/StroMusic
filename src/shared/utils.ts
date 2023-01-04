@@ -23,7 +23,7 @@ export const getRootCachePath = () => {
       ? mockSettings.serverBase64
       : String(settings.getSync('serverBase64'));
 
-  return path.join(baseCachePath, 'sonixdCache', serverBase64);
+  return path.join(baseCachePath, 'StromusicCache', serverBase64);
 };
 
 export const getImageCachePath = () => {

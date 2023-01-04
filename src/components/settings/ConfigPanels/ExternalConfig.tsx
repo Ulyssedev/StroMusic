@@ -52,7 +52,7 @@ const ExternalConfig = ({ bordered }: any) => {
           name={t('Discord Client Id')}
           description={
             <Trans t={t}>
-              The client/application Id of the Sonixd discord application. To use your own, create
+              The client/application Id of the Stromusic discord application. To use your own, create
               one on the{' '}
               <StyledLink
                 onClick={() => shell.openPath('https://discord.com/developers/applications')}

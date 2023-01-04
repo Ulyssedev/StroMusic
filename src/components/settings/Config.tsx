@@ -23,7 +23,7 @@ import { apiController } from '../../api/controller';
 import ExternalConfig from './ConfigPanels/ExternalConfig';
 import Popup from '../shared/Popup';
 
-const GITHUB_RELEASE_URL = 'https://api.github.com/repos/jeffvli/sonixd/releases?per_page=3';
+const GITHUB_RELEASE_URL = 'https://api.github.com/repos/Ulyssedev/StroMusic/releases?per_page=3';
 
 const Config = () => {
   const { t } = useTranslation();
@@ -196,7 +196,7 @@ const Config = () => {
                         size="xs"
                         block
                         appearance="primary"
-                        onClick={() => shell.openExternal('https://github.com/jeffvli/sonixd')}
+                        onClick={() => shell.openExternal('https://github.com/Ulyssedev/StroMusic')}
                       >
                         {t('View on GitHub')}
                       </StyledButton>
@@ -206,7 +206,7 @@ const Config = () => {
                         appearance="primary"
                         onClick={() =>
                           shell.openExternal(
-                            'https://github.com/jeffvli/sonixd/blob/main/CHANGELOG.md'
+                            'https://github.com/Ulyssedev/StroMusic/blob/main/CHANGELOG.md'
                           )
                         }
                       >

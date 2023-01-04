@@ -32,7 +32,7 @@ const Titlebar = ({ font }: any) => {
       ? `(${playQueue.currentIndex + 1} / ${playQueue[currentEntryList].length}) ~ ${
           playQueue[currentEntryList][playQueue.currentIndex]?.title
         } ~ ${playQueue[currentEntryList][playQueue.currentIndex]?.artist[0]?.title} `
-      : 'Sonixd';
+      : 'Stromusic';
 
     setTitle(`${playStatus} ${songTitle}`.trim());
     document.title = `${playStatus} ${songTitle}`.trim();

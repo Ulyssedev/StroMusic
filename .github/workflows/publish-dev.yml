@@ -58,4 +58,4 @@ jobs:
         env:
           COMMIT_SHA: ${{ github.sha }}
         run: |
-          gci "./release" | ? { $_.Extension -match 'exe|dmg|AppImage'} | % { b2 upload-file sonixd $_.FullName "Sonixd(dev)_$(Get-Date -Format s)_$($env:COMMIT_SHA)_$($_.Extension)" }
+          gci "./release" | ? { $_.Extension -match 'exe|dmg|AppImage'} | % { b2 upload-file Stromusic $_.FullName "Stromusic(dev)_$(Get-Date -Format s)_$($env:COMMIT_SHA)_$($_.Extension)" }

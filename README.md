@@ -1,36 +1,36 @@
-<img src="assets/icon.png" alt="sonixd logo" title="sonixd" align="right" height="60px" />
+<img src="assets/icon.png" alt="Stromusic logo" title="Stromusic" align="right" height="60px" />
 
-# Sonixd
+# Stromusic
 
-  <a href="https://github.com/jeffvli/sonixd/releases">
-    <img src="https://img.shields.io/github/v/release/jeffvli/sonixd?style=flat-square&color=blue"
+  <a href="https://github.com/Ulyssedev/StroMusic/releases">
+    <img src="https://img.shields.io/github/v/release/Ulyssedev/StroMusic?style=flat-square&color=blue"
     alt="Release">
   </a>
-  <a href="https://github.com/jeffvli/sonixd/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/jeffvli/sonixd?style=flat-square&color=brightgreen"
+  <a href="https://github.com/Ulyssedev/StroMusic/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/Ulyssedev/StroMusic?style=flat-square&color=brightgreen"
     alt="License">
   </a>
-  <a href="https://github.com/jeffvli/sonixd/releases">
-    <img src="https://img.shields.io/github/downloads/jeffvli/sonixd/total?style=flat-square&color=orange"
+  <a href="https://github.com/Ulyssedev/StroMusic/releases">
+    <img src="https://img.shields.io/github/downloads/Ulyssedev/StroMusic/total?style=flat-square&color=orange"
     alt="Downloads">
   </a>
   <a href="https://discord.gg/FVKpcMDy5f">
     <img src="https://img.shields.io/discord/922656312888811530?color=red&label=discord&logo=discord&logoColor=white"
     alt="Discord">
   </a>
-  <a href="https://matrix.to/#/#sonixd:matrix.org">
-    <img src="https://img.shields.io/matrix/sonixd:matrix.org?color=red&label=matrix&logo=matrix&logoColor=white"
+  <a href="https://matrix.to/#/#Stromusic:matrix.org">
+    <img src="https://img.shields.io/matrix/Stromusic:matrix.org?color=red&label=matrix&logo=matrix&logoColor=white"
     alt="Matrix">
   </a>
 
-Sonixd is a cross-platform desktop client built for Subsonic-API (and Jellyfin in 0.8.0+) compatible music servers. This project was inspired by the many existing clients, but aimed to address a few key issues including <strong>scalability</strong>, <strong>library management</strong>, and <strong>user experience</strong>.
+Stromusic is a cross-platform desktop client built for Subsonic-API (and Jellyfin in 0.8.0+) compatible music servers. This project was inspired by the many existing clients, but aimed to address a few key issues including <strong>scalability</strong>, <strong>library management</strong>, and <strong>user experience</strong>.
 
-- [**Usage documentation & FAQ**](https://github.com/jeffvli/sonixd/discussions/15)
-- [**Theming documentation**](https://github.com/jeffvli/sonixd/discussions/61)
+- [**Usage documentation & FAQ**](https://github.com/Ulyssedev/StroMusic/discussions/15)
+- [**Theming documentation**](https://github.com/Ulyssedev/StroMusic/discussions/61)
 
-Sonixd has been tested on the following: [Navidrome](https://github.com/navidrome/navidrome), [Airsonic](https://github.com/airsonic/airsonic), [Airsonic-Advanced](https://github.com/airsonic-advanced/airsonic-advanced), [Gonic](https://github.com/sentriz/gonic), [Astiga](https://asti.ga/), [Jellyfin](https://github.com/jellyfin/jellyfin)
+Stromusic has been tested on the following: [Navidrome](https://github.com/navidrome/navidrome), [Airsonic](https://github.com/airsonic/airsonic), [Airsonic-Advanced](https://github.com/airsonic-advanced/airsonic-advanced), [Gonic](https://github.com/sentriz/gonic), [Astiga](https://asti.ga/), [Jellyfin](https://github.com/jellyfin/jellyfin)
 
-### [Demo Sonixd using Navidrome](https://github.com/jeffvli/sonixd/discussions/244)
+### [Demo Stromusic using Navidrome](https://github.com/Ulyssedev/StroMusic/discussions/244)
 
 ## Features
 
@@ -47,14 +47,14 @@ Sonixd has been tested on the following: [Navidrome](https://github.com/navidrom
 
 ## Screenshots
 
-<a href="https://raw.githubusercontent.com/jeffvli/sonixd/main/assets/screenshots/0.13.1/album.png"><img src="https://raw.githubusercontent.com/jeffvli/sonixd/main/assets/screenshots/0.13.1/album.png" width="49.5%"/></a>
-<a href="https://raw.githubusercontent.com/jeffvli/sonixd/main/assets/screenshots/0.13.1/artist.png"><img src="https://raw.githubusercontent.com/jeffvli/sonixd/main/assets/screenshots/0.13.1/artist.png" width="49.5%"/></a>
-<a href="https://raw.githubusercontent.com/jeffvli/sonixd/main/assets/screenshots/0.13.1/search.png"><img src="https://raw.githubusercontent.com/jeffvli/sonixd/main/assets/screenshots/0.13.1/search.png" width="49.5%"/></a>
-<a href="https://raw.githubusercontent.com/jeffvli/sonixd/main/assets/screenshots/0.13.1/now_playing.png"><img src="https://raw.githubusercontent.com/jeffvli/sonixd/main/assets/screenshots/0.13.1/now_playing.png" width="49.5%"/></a>
+<a href="https://raw.githubusercontent.com/Ulyssedev/StroMusic/main/assets/screenshots/0.13.1/album.png"><img src="https://raw.githubusercontent.com/Ulyssedev/StroMusic/main/assets/screenshots/0.13.1/album.png" width="49.5%"/></a>
+<a href="https://raw.githubusercontent.com/Ulyssedev/StroMusic/main/assets/screenshots/0.13.1/artist.png"><img src="https://raw.githubusercontent.com/Ulyssedev/StroMusic/main/assets/screenshots/0.13.1/artist.png" width="49.5%"/></a>
+<a href="https://raw.githubusercontent.com/Ulyssedev/StroMusic/main/assets/screenshots/0.13.1/search.png"><img src="https://raw.githubusercontent.com/Ulyssedev/StroMusic/main/assets/screenshots/0.13.1/search.png" width="49.5%"/></a>
+<a href="https://raw.githubusercontent.com/Ulyssedev/StroMusic/main/assets/screenshots/0.13.1/now_playing.png"><img src="https://raw.githubusercontent.com/Ulyssedev/StroMusic/main/assets/screenshots/0.13.1/now_playing.png" width="49.5%"/></a>
 
 ## Install
 
-You can install sonixd by downloading the [latest release](https://github.com/jeffvli/sonixd/releases) for your specified operating system.
+You can install Stromusic by downloading the [latest release](https://github.com/Ulyssedev/StroMusic/releases) for your specified operating system.
 
 ---
 
@@ -63,13 +63,13 @@ You can install sonixd by downloading the [latest release](https://github.com/je
 If you prefer not to download the release binary, you can install using `winget`. Using your favorite terminal (cmd/pwsh):
 
 ```
-winget install sonixd
+winget install Stromusic
 ```
 
 Or you can install using [scoop](https://scoop.sh).
 
 ```
-scoop install sonixd
+scoop install Stromusic
 ```
 
 ---
@@ -79,24 +79,24 @@ scoop install sonixd
 If you prefer not to download the release binary, you can install using `homebrew`. Using your favorite terminal:
 
 ```
-brew install --cask sonixd
+brew install --cask Stromusic
 ```
 
 ---
 
 ### Arch Linux
 
-There is an AUR package of the latest AppImage release available [here](https://aur.archlinux.org/packages/sonixd-appimage).
+There is an AUR package of the latest AppImage release available [here](https://aur.archlinux.org/packages/Stromusic-appimage).
 
-To install it you can use your favourite AUR package manager and install the package: `sonixd-appimage`
+To install it you can use your favourite AUR package manager and install the package: `Stromusic-appimage`
 
 For example using `yay`:
 
 ```
-yay -S sonixd-appimage
+yay -S Stromusic-appimage
 ```
 
-If you encounter any problems please comment on the [AUR](https://aur.archlinux.org/packages/sonixd-appimage) or contact the [maintainer](mailto:robin@blckct.io) directly before you open an issue here.
+If you encounter any problems please comment on the [AUR](https://aur.archlinux.org/packages/Stromusic-appimage) or contact the [maintainer](mailto:robin@blckct.io) directly before you open an issue here.
 
 ---
 
@@ -106,17 +106,17 @@ Once installed, run the application and sign in to your music server with the fo
 - User name - `e.g. admin`
 - Password - `e.g. supersecret!`
 
-If you have any questions, feel free to check out the [Usage Documentation & FAQ](https://github.com/jeffvli/sonixd/discussions/15).
+If you have any questions, feel free to check out the [Usage Documentation & FAQ](https://github.com/Ulyssedev/StroMusic/discussions/15).
 
 ## Development / Contributing
 
 This project is built off of [electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate) v2.3.0.
-If you want to contribute to this project, please first create an [issue](https://github.com/jeffvli/sonixd/issues/new) or [discussion](https://github.com/jeffvli/sonixd/discussions/new) so that we can both discuss the idea and its feasability for integration.
+If you want to contribute to this project, please first create an [issue](https://github.com/Ulyssedev/StroMusic/issues/new) or [discussion](https://github.com/Ulyssedev/StroMusic/discussions/new) so that we can both discuss the idea and its feasability for integration.
 
-First, clone the repo via git and install dependencies (Windows development now requires additional setup, see [#232](https://github.com/jeffvli/sonixd/issues/232)):
+First, clone the repo via git and install dependencies (Windows development now requires additional setup, see [#232](https://github.com/Ulyssedev/StroMusic/issues/232)):
 
 ```bash
-git clone https://github.com/jeffvli/sonixd.git
+git clone https://github.com/Ulyssedev/StroMusic.git
 yarn install
 ```
 
@@ -140,4 +140,4 @@ If your devtools extensions are failing to run/install, check troubleshooting st
 
 ## License
 
-[GNU General Public License v3.0 ©](https://github.com/jeffvli/sonixd/blob/main/LICENSE)
+[GNU General Public License v3.0 ©](https://github.com/Ulyssedev/StroMusic/blob/main/LICENSE)

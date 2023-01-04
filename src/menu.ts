@@ -43,17 +43,17 @@ export default class MenuBuilder {
 
   buildDarwinTemplate(): MenuItemConstructorOptions[] {
     const subMenuAbout: DarwinMenuItemConstructorOptions = {
-      label: 'Sonixd',
+      label: 'Stromusic',
       submenu: [
         {
-          label: 'About Sonixd',
+          label: 'About Stromusic',
           selector: 'orderFrontStandardAboutPanel:',
         },
         { type: 'separator' },
         { label: 'Services', submenu: [] },
         { type: 'separator' },
         {
-          label: 'Hide Sonixd',
+          label: 'Hide Stromusic',
           accelerator: 'Command+H',
           selector: 'hide:',
         },
